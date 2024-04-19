@@ -7,8 +7,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'pages/providers/theme/theme_provider.dart';
 import 'pages/todos_page.dart';
 
-const double screenX = 600.0;
-const double screenY = 700.0;
+const double screenX = 700.0;
+const double screenY = 900.0;
 
 Future<void> main() async {
   if (Platform.isWindows | Platform.isLinux | Platform.isMacOS) {
