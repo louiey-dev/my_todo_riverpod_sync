@@ -7,26 +7,28 @@ class TodosPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: SafeArea(
-        child: Padding(
-          padding: EdgeInsets.all(20.0),
-          child: Column(
-            children: [
-              // Text("TodoHeader"),
-              TodoHeader(),
-              Divider(),
-              Text("NewTodo"),
-              SizedBox(height: 20),
-              Divider(),
-              Text("SearchTodo"),
-              SizedBox(height: 20),
-              Divider(),
-              Text("FilterTodo"),
-              SizedBox(height: 20),
-              Divider(),
-              Text("ShowTodos"),
-              Divider(),
-            ],
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Padding(
+            padding: EdgeInsets.all(20.0),
+            child: Column(
+              children: [
+                // Text("TodoHeader"),
+                TodoHeader(),
+                Divider(),
+                Text("NewTodo"),
+                SizedBox(height: 20),
+                Divider(),
+                Text("SearchTodo"),
+                SizedBox(height: 20),
+                Divider(),
+                Text("FilterTodo"),
+                SizedBox(height: 20),
+                Divider(),
+                Text("ShowTodos"),
+                Divider(),
+              ],
+            ),
           ),
         ),
       ),

@@ -11,7 +11,7 @@ enum AppTheme {
 class Theme extends _$Theme {
   @override
   AppTheme build() {
-    return AppTheme.light;
+    return AppTheme.dark;
   }
 
   void toggleTheme() {

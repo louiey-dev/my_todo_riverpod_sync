@@ -9,6 +9,7 @@ my todo app study of todo_riverpod_sync app from heavyfran "Synchronous Todo"
 ## Feature done
 
 - todos page done
+- desktop screen size control via desktop_window package
 
 ## TODO
 
