@@ -1,6 +1,7 @@
 # my_todo_riverpod_sync
 
 my todo app study of todo_riverpod_sync app from heavyfran "Synchronous Todo"
+
 [heavyfran code](https://github.com/heavyfran/todo_riverpod_sync).
 
 
