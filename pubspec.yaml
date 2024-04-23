@@ -22,7 +22,8 @@ dependencies:
   json_annotation: ^4.8.1
   dev: ^1.0.0
   desktop_window: ^0.4.0
-
+  uuid: ^4.4.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

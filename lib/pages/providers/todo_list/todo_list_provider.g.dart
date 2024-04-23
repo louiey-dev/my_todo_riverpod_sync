@@ -1,24 +1,25 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'theme_provider.dart';
+part of 'todo_list_provider.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$themeHash() => r'57cd66b765a910f6acd491490d87e3ee00cde133';
+String _$todoListHash() => r'd3338586b309bdcd5536b216efa58f6f45fdea6a';
 
-/// See also [Theme].
-@ProviderFor(Theme)
-final themeProvider = AutoDisposeNotifierProvider<Theme, AppTheme>.internal(
-  Theme.new,
-  name: r'themeProvider',
+/// See also [TodoList].
+@ProviderFor(TodoList)
+final todoListProvider =
+    AutoDisposeNotifierProvider<TodoList, List<Todo>>.internal(
+  TodoList.new,
+  name: r'todoListProvider',
   debugGetCreateSourceHash:
-      const bool.fromEnvironment('dart.vm.product') ? null : _$themeHash,
+      const bool.fromEnvironment('dart.vm.product') ? null : _$todoListHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef _$Theme = AutoDisposeNotifier<AppTheme>;
+typedef _$TodoList = AutoDisposeNotifier<List<Todo>>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

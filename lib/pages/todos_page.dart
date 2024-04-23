@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:my_todo_riverpod_sync/pages/widgets/filter_todo.dart';
 import 'package:my_todo_riverpod_sync/pages/widgets/new_todo.dart';
+import 'package:my_todo_riverpod_sync/pages/widgets/search_todo.dart';
+import 'package:my_todo_riverpod_sync/pages/widgets/show_todos.dart';
 import 'package:my_todo_riverpod_sync/pages/widgets/todo_header.dart';
 
 class TodosPage extends StatelessWidget {
@@ -20,14 +23,17 @@ class TodosPage extends StatelessWidget {
                 // Text("NewTodo"),
                 NewTodo(),
                 SizedBox(height: 20),
-                Divider(),
-                Text("SearchTodo"),
+                // Divider(),
+                // Text("SearchTodo"),
+                SearchTodo(),
                 SizedBox(height: 20),
                 Divider(),
-                Text("FilterTodo"),
-                SizedBox(height: 20),
-                Divider(),
-                Text("ShowTodos"),
+                // Text("FilterTodo"),
+                FilterTodo(),
+                // SizedBox(height: 20),
+                // Divider(),
+                // Text("ShowTodos"),
+                ShowTodos(),
                 Divider(),
               ],
             ),
